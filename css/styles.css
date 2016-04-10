@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for mobile first */
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+body {
+    background-color: #F8F9F9;
+    text-align: center;
+    color: #666;
+}
+
+h1 {
+    margin: 0.9em 0;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+nav li {
+    width: 100%;
+    display: block;
+    background: white;
+    margin-bottom: 4px;
+    font-size: 0.95em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+}
+
+.bio {
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 2.1em;
+    padding-bottom: 2.1em;
+    line-height: 1.5em;
+}
+
+.bio img {
+    padding: 10px 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.bio p {
+    margin-top: 1em;
+    color: #666;
+    font-weight: 200;
+}
+
+h2 {
+    color: #666;
+    font-size: 0.9em;
+    font-weight: 800;
+    padding: 1em 0;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+
+#portfolio {
+    padding: 2em 0.8em;
+    background-color: white;
+}
+
+#portfolio img {
+    width: 100%;
+}
+
+.portfolio-item {
+    margin: 2em 0;
+}
+
+.portfolio-item h3 {
+    padding: 15px;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+.portfolio-item div {
+    padding: 0 1em;
+    line-height: 1.5em;
+    font-size: 0.9em;
+}
+
+#contact {
+    margin: 2em 1em;
+    color: #666;
+}
+
+#contact h2 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 0;
+}
+
+#contact p {
+    padding: 0.5em 0;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+#contact .contact-details span {
+    font-weight: bold;
+}
+
+#contact .contact-details {
+    padding: 1em 0;
+    font-weight: normal;
+}
+
+footer {
+    display: block;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-top: #ddd solid thin;
+}
+
+footer div.name {
+    float: left;
+}
+
+footer div.back-to-top {
+    float: right;
+}
+
+footer div a {
+    display: block;
+    padding: 1.8em 0;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+}
+
+/* Styles for tablet screens */
+@media screen and (min-width: 769px) {
+
+}
+
+/* Styles for desktop screens */
+@media screen and (min-width: 1025px) {
+
+}
+
